@@ -24,6 +24,7 @@ print()
 print(f'Результат уникальных данных:  {g}')
 print()
 
+# Проверка по set.union
 a = set(a)
 b = set(b)
 z = a.union(b)
