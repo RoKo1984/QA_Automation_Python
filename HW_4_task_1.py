@@ -16,10 +16,3 @@ print(type(tuple_1))
 
 
 
-# LIST_SIZE = 5
-# RANDOM_UPPER_BOUND = 200
-#
-# # Input
-# l = []
-# for _ in range(0, LIST_SIZE):
-#     l.append(random.randint(0, RANDOM_UPPER_BOUND))
