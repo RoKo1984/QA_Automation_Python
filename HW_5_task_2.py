@@ -12,8 +12,6 @@ for _ in range(0, LIST_SIZE):
 print(f'список:  {list}')
 
 def sum(list):
-
-
     s = 0
     for i in list:
         s = s + i
