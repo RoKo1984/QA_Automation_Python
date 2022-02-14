@@ -28,7 +28,7 @@ showEmployee(name, salary)
 # def showEmployee (name, salary=9000):
 #
 #         return print(f'\nИмя сотрудника:  {name} \nЗарплата сотруднака = {salary}')
-#
-# # showEmployee(name, salary) # В этом варианте есть ошибка. Выводится или значение заданное значение ЗП или пустая строка
-#
+
+# showEmployee(name, salary) # В этом варианте есть ошибка. Выводится или значение заданное значение ЗП или пустая строка
+
 # showEmployee(name) # Или выводится все время 9000.

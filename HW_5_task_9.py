@@ -6,19 +6,19 @@
 #     которая будет вычислять сложение a и b
 #     c. Наконец, внешняя функция добавит 5 и вернет ее.
 
-a = 5
-b = 2
-def f_a(a, b):
-    def f_b(f_a):
-        global c
-        c = a + b
-        return print(c)
-    f_b()
-def f_c(c):
-    return print(c + 5)
 
-f_a()
 
+def glob(a, b):
+    def sum():
+        nonlocal a
+        nonlocal b
+        return a + b
+    return sum()
+def sum_5(a, b):
+    return print(glob(a, b) + 5)
+
+
+sum_5(5, 30)
 
 
 

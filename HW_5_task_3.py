@@ -2,16 +2,19 @@
 # аргументы переменной длины и выводить все значения
 # аргументов с индексом аргумента.
 
-# ????
 
 def add_num(*arg):
-    s = list(arg)
-    for i in range(len(arg)):
-        s[i] += ind
-    return print(s)
+    for i in arg:
+        print(f'индекс аргумента:{arg.index(i)},  Значение аргумента: {i}')
+
+add_num(3, 6, 2, 7, 2, 9)
 
 
-add_num(3, 6, 2, 6)
+
+
+
+
+
 
 
 

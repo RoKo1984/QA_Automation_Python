@@ -2,11 +2,14 @@
 # является точной степенью двойки, или слово NO в противном случае. 8
 # - YES, 3 - NO
 
-a = int(input())
-n = 2
-while a != n and a >= n:
-n = n * 2
-if a == n:
-print('YES')
-else:
-print('NO')
+
+def f(n):
+    if n % 2 != 0:
+        return print('NO')
+    else:
+        if n == 2:
+            return print('YES')
+        else:
+            f(n / 2)
+
+f(16)
