@@ -1,12 +1,11 @@
 # Напишите функцию для умножения всех чисел в списке. Рекурсивно
 
-a = [1, 5, 3]
-def calcMultNumbers(a):
-    if a == []:
+def calcMultNumbers(list):
+    if list == []:
         return 1
     else:
-        mult = a[0]
-        mult = mult * calcMultNumbers(a[1:])
+        mult = list[0]
+        mult = mult * calcMultNumbers(list[1:])
         return mult
 
-print(calcMultNumbers(a = [4, 6, 10]))
+print(calcMultNumbers(list = [4, 5, 10]))

@@ -1,11 +1,11 @@
 # Дано натуральное число N. Вычислите сумму его цифр.
 # Напишите рекурсивную функцию
 
-def f(n):
+def sum_numbers(n):
     if n == 0:
         return 0
-    return n % 10 + f(n//10)
-print(f(123))
+    return n % 10 + sum_numbers(n//10)
+print(sum_numbers(123))
 
 
 

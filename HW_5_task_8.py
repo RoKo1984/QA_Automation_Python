@@ -3,13 +3,13 @@
 # - YES, 3 - NO
 
 
-def f(n):
+def degree_function_num(n):
     if n % 2 != 0:
         return print('NO')
     else:
         if n == 2:
             return print('YES')
         else:
-            f(n / 2)
+            degree_function_num(n / 2)
 
-f(16)
+degree_function_num(16)
